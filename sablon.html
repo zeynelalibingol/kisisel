@@ -20,19 +20,22 @@
             }
             /* Banner */
             #banner{
-                width: 390px;
+                color: black;
+                position: relative;
+                width: 400px;
                 height: 100px;
                 border-style: none;
-                border-width: 1px;
-                background-color: blanchedalmond;
+                border-width: 0px;
+                background-color: rgb(218, 213, 206);
                 margin: auto; 
-
+     
             }
+
             /*Logo*/
             #logo{
                 width: 64px;
                 height: 80px;
-                border-style: dnone;
+                border-style: solid;
                 border-width: 1px;
                 background-color: white;
                 position:relative;
@@ -46,15 +49,14 @@
             #sosyal{
                 width: 160px;
                 height: 40px;
-                
+                border: none;
                 border-width: 1px;
-                
-                
                 float: right;
                 position: relative;
-                top: 60px;
-                right:-20px;
-
+                left:2px;
+                top: 55px;
+               
+          
 
             }
             #ben{
@@ -67,6 +69,9 @@
                 padding: 5px;
                 position:relative;
                 bottom: 5px;
+                top: 1px;
+                left: 10px;
+        
 
             }
             #inst{
@@ -74,17 +79,59 @@
                 padding: 5px;
                 position:relative;
                 bottom: 5px;
+                top: 1px;
+                left: 12px;
             }
             #twit{
                 width: 30px;
                 padding: 5px;
                 position:relative;
                 bottom: 7px;
-
-            
-                
+                top: 0.79px;
+                left: 12px;
             }
+           /*Anamenu*/
+           #main{
+            width: 398px;
+            height: 50px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: rgb(142, 137, 137);
+            background-color: blanchedalmond;
+            margin: auto;
+
+           }
+           #main ul{
+            list-style-type: none;
            
+
+
+           }
+           #main ul li{
+            padding:13px;
+            margin-left:30px;
+            float: left;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            position: relative;
+            top: 3px;
+            text-align: center;
+  
+           }
+           #main ul a:link{
+           text-decoration: none;
+           color: rgb(3, 3, 43);
+           font-size: 17px;
+            
+           }
+           #main ul a:visited{
+            color:blueviolet;
+
+           }
+           #main ul a:hover{
+            color:brown;
+
+           }
+          
 
             
 
@@ -94,28 +141,33 @@
     <body>
         <div id="page">
             <header id="banner">
+            
+               
                 <div id="logo">
                     <a href="index.html"><img id="ben" src="/resimler/ben.JPG" alt="logo_ben" title="zeze"></a>
+                    <hr>
                     
                     
 
                 </div>
                 <div id="sosyal">
-                    <a href="#"> <img id="face" src="/resimler/facebook.png" alt="facebook" title="Facebook"></a>
-                    <a href="#"><img id="twit" src="/resimler/Twit_logo.png" alt="twitter" title="Twitter"></a>
-                    <a href="#"><img id="inst" src="/resimler/insta_logo.png" alt="instagram" title="Instagram"></a>
-
-                   
-                    
-                    
-                   
+                    <a href="#"> <img id="face" src="/resimler/facebook.png" alt="facebook" title="Facebook"></a> 
+                    <a href="#"><img id="twit" src="/resimler/Twit_logo.png" alt="twitter" title="Twitter"></a> 
+                    <a href="#"><img id="inst" src="/resimler/insta_logo.png" alt="instagram" title="Instagram"></a>  
 
                 </div>
                 
-
-                
             </header>
             <nav id="main"> 
+                <ul>
+                    <li>
+                        <a href="index.html">Home Page</a> |    
+                        <a href="ben-kimim.html">About Me</a> |
+                        <a href="Education">Education</a> |
+                        <a href="iletisim">Contact </a> 
+                    </li>
+                </ul>
+
 
             </nav>
             <article id="contents">
